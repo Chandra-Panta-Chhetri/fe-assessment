@@ -1,0 +1,22 @@
+.news-headlines {
+  padding: 20px;
+}
+
+.news-headlines__search {
+  display: flex;
+}
+
+.news-headlines__search-submit {
+  margin-left: 10px;
+}
+
+.news-headlines__list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-headlines__list .headline {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
