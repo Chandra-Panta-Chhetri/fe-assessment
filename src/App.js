@@ -1,6 +1,11 @@
+import { NewsHeadlines } from "./components";
+
 const App = () => {
-  console.log(process.env);
-  return <div className="App">Hi</div>;
+  return (
+    <main>
+      <NewsHeadlines />
+    </main>
+  );
 };
 
 export default App;
